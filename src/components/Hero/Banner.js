@@ -1,5 +1,5 @@
 import React from 'react'
-import space from '../../assets/photos/space.webp'
+
 import back from '../../assets/photos/backg.webp'
 import { FaHotel, FaPlane, FaUtensils, FaWifi } from 'react-icons/fa'
 const Banner = () => {
