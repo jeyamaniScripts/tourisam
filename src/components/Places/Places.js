@@ -7,7 +7,7 @@ const Places = () => {
   return (
     
     <div className=' bg-gray-50 py-14'>
-      <div className='container'>
+      <div className='px-5 md:container'>
         <div className=' border-l-8 border-primaryColor pl-4 py-2 mb-8'>
           <h2> Best Places</h2>
         </div>

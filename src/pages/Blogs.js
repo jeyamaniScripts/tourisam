@@ -6,7 +6,7 @@ const Blogs = () => {
   const{ blogs} = content;
   return (
     <div className='py-14'>
-      <div className='container'>
+      <div className='px-5 md:container'>
         <h2 className='border-l-8 border-primaryColor/50 py-2 pl-3'>Our Latest Places</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8'>
           {

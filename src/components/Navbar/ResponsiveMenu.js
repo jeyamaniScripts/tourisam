@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const ResponsiveMenu = ({showMenu,nav}) => {
   
   return (
-    <div className={`${showMenu ? 'left-[100%]':'left-0'} absolute top-0 left-0 bottom-0 h-screen w-[75%] bg-white rounded-r-lg z-20`}>
+    <div className={`${showMenu ? '*left-9999':'left-0'} absolute top-0 left-0 bottom-0 h-screen w-[75%] bg-white rounded-r-lg z-20`}>
      <div className='flex flex-col justify-stretch container p-14'>
         <div className=' flex flex-col items-center gap-3'>
             <FaUserCircle className='w-12 h-11'/>
